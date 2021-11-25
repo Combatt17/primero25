@@ -9,10 +9,10 @@
          
           </tr>
         </thead>
-        <tbody>
+        <tbody *ngFor="let item of equipos">
           <tr>
-            <td>123</td>
-            <td>Cali</td>
+            <td>{{item.id}}</td>
+            <td>{{item.nombre}}</td>
           </tr>
           
         </tbody>
